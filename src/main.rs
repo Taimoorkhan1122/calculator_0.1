@@ -41,3 +41,4 @@ fn calculator(x : String) {
     println!("{} ^ {} = {}",new, y, power)
   //}
 }
+//working
