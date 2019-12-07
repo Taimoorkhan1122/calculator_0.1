@@ -34,7 +34,7 @@ fn calculator(x : String) {
         "*" => println!("{} * {} = {}",x, y, (x * y)),
         "^" =>  for inn in 1..y as i32 {
             power = x*new;
-            x = power;
+            x = power;//cmiit 
         },
         _ => (),
     };
