@@ -1,19 +1,22 @@
 use std::io;
 
 fn main() {
-    loop { println!("Calculator");
-    let mut input = String::new();
-    io::stdin().read_line(&mut input)
-    .expect("Enter correct opertors");
-    let result = calculator(input);
-  }
+        loop { 
+        println!("====[Calculator]====");
+        let mut input = String::new();
+        io::stdin().read_line(&mut input)
+        .expect("Enter correct opertors");
+    
+        let result = calculator(input);
+       
+    }
 }
 
-fn calculator(x : String) { 
+fn calculator(x : String)  { 
      
     let mut vec = Vec::new();
     for i in x.as_str().split_whitespace(){
-    vec.push(i)
+    vec.push(i);
     }
     let x = vec[0];
     let y = vec[2];
@@ -22,7 +25,8 @@ fn calculator(x : String) {
     let mut y : f32 = y.trim().parse().unwrap();
     let mut power : f32 = 0.0;
     let mut new = x;
-        
+    
+    
         match vec[1] {
             "+" => println!("{} + {} = {}",x, y, (x + y)),
             "-" => println!("{} - {} = {}",x, y, (x - y)),
@@ -36,5 +40,5 @@ fn calculator(x : String) {
         
             _ => println!("Error! retry with correct formatting 5 + 5"),
         };
-        
+    
 }
