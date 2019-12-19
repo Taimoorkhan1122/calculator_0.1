@@ -1,6 +1,1 @@
-Hi Sir this is Taimoor here. As I asked you in the class that I am 
-facing some problems while creating a calculator application, here
-is the source code, kindly help me I want this to work when someone
-enters let say 5+10 then it should print 15 on console.
-But right now it is working with 5 + 10 i.e you have to put space
-between each element in order to perform opertaion.
+YOoHOo
