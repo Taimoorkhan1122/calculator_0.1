@@ -1,0 +1,2 @@
+# calculator_0.1
+Project Calculator Write a calculator program. A minimal calculator will support the following functions: • numbers with decimals (not just integers) • addition (1 + 2 is 3) • subtraction (12 - 4 is 8) • multiplication (33 * 2 is 66) • division (3 / 8 is 0.375) • exponents (2 ^ 3 is 8) • error messages when you do something wrong Your calculator should keep on running until explicitly told to quit. I suggest typing a zero as the first operand to cause it to quit, i.e. Program Console Sample: >2 + 3 5 >4 * 9 36 >0 + 2 Bye
